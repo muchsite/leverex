@@ -8,7 +8,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+    publicPath: "/frontend/",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".scss"],
@@ -33,7 +33,9 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, "public"),
-    historyApiFallback: true,
+    historyApiFallback: {
+      index: "/index.html",
+    },
     port: 3000,
     open: true,
   },
