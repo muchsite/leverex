@@ -1,0 +1,46 @@
+{
+  "name": "murtaz-chakvetadze",
+  "version": "1.0.0",
+  "description": "I used an extension \"CORS unblock\" to make API calls.   A hashed password is stored in JSON. Login credentials are: email: luffy.monkey@leverx.com password: 1234",
+  "main": "card.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "node server/server.js",
+    "frontend": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "dotenv": "^16.4.7",
+    "dotenv-webpack": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "json-server": "^1.0.0-beta.3",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.26.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.0.2"
+  }
+}
